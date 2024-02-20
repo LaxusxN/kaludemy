@@ -11,22 +11,27 @@ interface CursosProps {
 }
 const courses = [
   {
+    id: 1,
     name: "Aritmética",
     image: aritmetica,
   },
   {
+    id: 2,
     name: "Álgebra",
     image: algebra,
   },
   {
+    id: 3,
     name: "Geometría",
     image: geometria,
   },
   {
+    id: 4,
     name: "Trigonometría",
     image: trigonometria,
   },
   {
+    id: 5,
     name: "Física",
     image: fisica,
   },
