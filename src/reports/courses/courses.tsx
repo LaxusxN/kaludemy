@@ -8,7 +8,7 @@ interface CoursesListProps {
 
 export const CoursesList: FC<CoursesListProps> = ({ rows = [] }) => {
   return (
-    <div className="flex  justify-between flex-wrap gap-16">
+    <div className="flex flex-wrap gap-8 justify-center">
       {rows.map((item) => (
         <CardCourse key={item.id} {...item} />
       ))}

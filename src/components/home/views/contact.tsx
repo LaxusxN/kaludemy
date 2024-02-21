@@ -73,11 +73,11 @@ const ContactInfo = () => {
 };
 export const Contact: FC<ContactProps> = () => {
   return (
-    <div className="flex justify-between gap-8 px-48 py-16">
+    <div className=" flex items-center p-16 justify-center md:justify-between gap-8  py-16">
       <div className="flex flex-col justify-between w-full">
         <ContactInfo />
         <div
-          className="flex flex-wrap gap-6 md:justify-between 
+          className="flex flex-wrap gap-6 md:justify-between p-16
           h-auto w-full"
         >
           {media.map((index) => (

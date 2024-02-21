@@ -38,7 +38,7 @@ const courses = [
 ];
 export const Cursos: FC<CursosProps> = () => {
   return (
-    <div className="bg-[#8DA8BF]">
+    <div className="p-16 bg-[#8DA8BF]">
       <h1 className="text-6xl font-bold mb-8">Cursos:</h1>
       <CoursesList rows={courses} />
     </div>

@@ -7,12 +7,13 @@ export const CardCourse: FC<ICardCourseProps> = ({ name, image }) => {
   return (
     <div
       className="relative cursor-pointer
-      hover: shadow-lg hover: scale-105 transition duration-300 ease-in-out
+      hover: shadow-lg hover: scale-105 transition duration-300
+      w-auto sm:w-[350px]
       "
     >
       <h1
         className="block md:hidden
-        text-center text-white text-2xl font-bold"
+        text-center text-white text-lg md:text-2xl font-bold"
       >
         {name}
       </h1>
