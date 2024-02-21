@@ -23,10 +23,10 @@ export const About: FC<AboutProps> = () => {
       >
         <h1 className="text-4xl">Sobre mí</h1>
         <p className="text-xl">
-          Egresado de la San Marcos de la carrera de Ingeniería Electrónica.
-          Apasionado por la educación, las matemáticas y la programación. Este
-          un nuevo proyecto, con el que pueda aportar a aquellos que esten
-          dispuestos a aprendar y superar sus límites.
+          Ingeniero electrónico egresado de la San Marcos de la carrera de
+          Ingeniería Electrónica. Apasionado por la educación, las matemáticas y
+          la programación. Este un nuevo proyecto, con el que pueda aportar a
+          aquellos que esten dispuestos a aprendar y superar sus límites.
         </p>
         <p className="text-xl">
           Clases de Matemáticas, ciencias y programación a nivel escolar o
