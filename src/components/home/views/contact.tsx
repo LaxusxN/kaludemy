@@ -41,7 +41,7 @@ const media = [
   },
 ];
 const handleRedirect = (url: string) => {
-  window.location.href = url;
+  window.open(url, "_blank");
 };
 
 const ContactInfo = () => {
