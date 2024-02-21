@@ -49,16 +49,16 @@ const ContactInfo = () => {
     <div className="flex flex-col gap-8">
       <h1
         className="
-        font-bold text-6xl"
+        font-bold text-2xl md:text-6xl"
       >
         Contáctame
       </h1>
       <div className="flex justify-between">
         <div>
-          <h1 className="text-2xl  mb-4">
+          <h1 className="text-lg md:text-2xl  mb-4">
             Construye tu camino hacia el éxito con:
           </h1>
-          <h1 className="text-4xl font-bold">
+          <h1 className="text-2xl md:text-4xl font-bold">
             <span className="inline-block transform -rotate-12">
               <span className="bg-blue-800 text-white rounded-full px-3 py-1">
                 K
@@ -73,11 +73,11 @@ const ContactInfo = () => {
 };
 export const Contact: FC<ContactProps> = () => {
   return (
-    <div className="flex justify-between gap-8">
+    <div className="flex justify-between gap-8 px-48 py-16">
       <div className="flex flex-col justify-between w-full">
         <ContactInfo />
         <div
-          className="flex  justify-between 
+          className="flex flex-wrap gap-6 md:justify-between 
           h-auto w-full"
         >
           {media.map((index) => (
@@ -89,7 +89,7 @@ export const Contact: FC<ContactProps> = () => {
           ))}
         </div>
       </div>
-      <img src={clases} className="h-[400px] w-[300px]" />
+      <img src={clases} className="hidden md:block h-[400px] w-[300px]" />
     </div>
   );
 };

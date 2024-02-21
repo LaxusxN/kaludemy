@@ -10,9 +10,16 @@ export const CardCourse: FC<ICardCourseProps> = ({ name, image }) => {
       hover: shadow-lg hover: scale-105 transition duration-300 ease-in-out
       "
     >
+      <h1
+        className="block md:hidden
+        text-center text-white text-2xl font-bold"
+      >
+        {name}
+      </h1>
       <img
         src={image}
-        className="rounded-lg cursor-pointer h-[350px] w-[350px]"
+        className="rounded-lg cursor-pointer 
+        h-[150px] w-[150px] md:h-[350px] md:w-[350px]"
       />
       <div
         className="opacity-0 hover:opacity-100 duration-300 absolute cursor-pointer

@@ -1,12 +1,15 @@
-import { Cursos, Contact } from "./components";
+import { About, Cursos, Contact } from "./components";
 
 function App() {
   return (
-    <div className="flex flex-col p-32 gap-8 bg-[#8DA8BF] text-[#FFFFFF]">
-      <div className="w-auto">
+    <div className="flex flex-col gap-16 bg-[#8DA8BF] text-[#FFFFFF]">
+      <About />
+      <div className="w-auto px-48">
         <Cursos />
       </div>
-      <Contact />
+      <div className="bg-red-400">
+        <Contact />
+      </div>
     </div>
   );
 }
