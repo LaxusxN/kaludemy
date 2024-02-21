@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "https://LaxusxN.github.io/kaludemy",
   build: {
-    outDir: "dist",
+    outDir: "docs",
   },
 });
